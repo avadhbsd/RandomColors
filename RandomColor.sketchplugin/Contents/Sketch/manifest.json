@@ -1,0 +1,24 @@
+{
+  "author" : "Avadh Dwivedi",
+  "commands" : [
+    {
+      "script" : "script.cocoascript",
+      "name" : "RandomColor",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "com.bohemiancoding.sketch.runscriptidentifier"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "com.bohemiancoding.sketch.runscriptidentifier"
+    ],
+    "title" : "RandomColor"
+  },
+  "identifier" : "com.example.sketch.02bc3584-c0b4-4b1d-9f17-a4bdb4fedbdf",
+  "version" : "1.0",
+  "description" : "Apply a color palette to a group of objects",
+  "authorEmail" : "avadh@ymail.com",
+  "name" : "RandomColor"
+}

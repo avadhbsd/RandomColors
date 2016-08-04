@@ -1,0 +1,3 @@
+var onRun = function(context) {
+  @import '/Users/avadh/Library/Application Support/com.bohemiancoding.sketch3/Plugins/xml-link.sketchplugin/Contents/Sketch/script.cocoascript'
+};
