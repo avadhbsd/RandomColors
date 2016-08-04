@@ -1,3 +1,60 @@
-var onRun = function(context) {
-  @import '/Users/avadh/Library/Application Support/com.bohemiancoding.sketch3/Plugins/xml-link.sketchplugin/Contents/Sketch/script.cocoascript'
-};
+
+var color1 =  "#FC583B"
+var color2 =  "#FFD100"
+var color3 =  "#3ADCBE"
+var color4 =  "#5071FF"
+var color5 =  "#014EEF"
+var color6 =  "#FFF200"
+var color7 =  "#78379D"
+var color8 =  "#FE4F20"
+var color9 =  "#40BE65"
+var color10 =  "#EDC054"
+var color11 =  "#EDC054"
+
+function getRandomIntInclusive(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+
+var colors = [color1, color2, color3, color4, color5, color6,color7,color8,color9,color10,color11]
+
+  var selection = context.selection
+
+  log(selection.count())
+
+  var loop = selection.objectEnumerator()
+
+  while (item = loop.nextObject()) {
+  // do something with item
+
+
+
+  if (item.class() === MSShapeGroup) {
+
+              //get layer style
+              var shapeStyle = item.style();
+
+              //get layer style fills array
+              var fills = shapeStyle.fills();
+
+              //set fill style if not created
+              if(fills.count() <= 0){
+                  fills.addNewStylePart();
+              }
+
+              //get first fill layer style
+              var fill = fills.firstObject();
+
+              //set color to first fill layer style
+
+              var r = getRandomIntInclusive(1,11)
+
+              while (lastColor == r) {
+                var r = Math.floor(Math.random() * 11)
+              }
+              [fill setColor:[MSColor colorWithSVGString: colors[r]]];
+
+              var lastColor = r
+         }
+}
