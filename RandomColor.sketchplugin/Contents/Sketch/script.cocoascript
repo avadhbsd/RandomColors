@@ -1,3 +1,4 @@
+function onRun(context) {
 // Define color palette
 
     var color1 =  "#FC583B"
@@ -71,3 +72,4 @@
                   var lastColor = r
              }
   }
+}
