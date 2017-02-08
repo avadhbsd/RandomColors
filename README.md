@@ -1,7 +1,11 @@
-![rnd](https://cloud.githubusercontent.com/assets/549567/17456391/c1ea2736-5bf3-11e6-83c5-cbfb60a02cc9.png)
+![](https://cloud.githubusercontent.com/assets/549567/17456391/c1ea2736-5bf3-11e6-83c5-cbfb60a02cc9.png)
 
 # RandomColors
 Sketch App Plugin For Applying Random Colors To A Selection Of Objects.
+
+
+[](https://cdn-images-1.medium.com/max/1600/1*snjYmA8TIYxC1KHFSQZUfQ.gif)
+
 
 ---
 ## Installation
