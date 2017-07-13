@@ -35,7 +35,7 @@ Skip this step if you want to use default colors to be used.
     
 
 
-**2. Select Shape Objects **
+**2. Select Shape Objects**
 
 Select all objects you want to have random colors.
 
