@@ -14,7 +14,10 @@ Install with [Sketch-Toolbox](sketchtoolbox.com) or copy and paste RandomColors.
 ## Basic Usage
 
 **1. Define Colors**
+
 Skip this step if you want to use default colors to be used.
+
+To change the colors, navigate to `Library/Application Support/com.bohemiancoding.sketch3/Plugins/Randomcolorv1.1.sketchplugin/Contents/Sketch` and edit the `script.cocoascript` file. An easy way to get there is by going to Finder and pressing `Command+Shift+G`, and then pasting the above file path in there.
 
 		
 		// Default colors
@@ -35,7 +38,7 @@ Skip this step if you want to use default colors to be used.
     
 
 
-**2. Select Shape Objects **
+**2. Select Shape Objects**
 
 Select all objects you want to have random colors.
 
