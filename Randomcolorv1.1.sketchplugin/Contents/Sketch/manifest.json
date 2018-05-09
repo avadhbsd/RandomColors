@@ -4,6 +4,7 @@
     {
       "script" : "script.cocoascript",
       "name" : "Randomcolorv1.1",
+      "shortcut": "cmd alt shift r",
       "handlers" : {
         "run" : "onRun"
       },

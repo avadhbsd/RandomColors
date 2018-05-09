@@ -41,7 +41,7 @@ Select all objects you want to have random colors.
 
 
 **3. Apply Random Colors**
-Run the RandomColors plugin from plugins menu.
+Run the RandomColors plugin from plugins menu or use shortcut : cmd+alt+shift+r
 
 ---
 **Note:** The plugin only works with *Shape Layers*, support for *Text* and *Path Layers* and objects inside a *Group* will be added next. In case you would like to contribute, please implement any of these features, and raise a pull request.
