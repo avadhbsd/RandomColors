@@ -9,7 +9,7 @@ Sketch App Plugin For Applying Random Colors To A Selection Of Objects.
 
 ---
 ## Installation
-Install with [Sketch-Toolbox](sketchtoolbox.com) or copy and paste RandomColors.sketchplugin file to your sketch app’s plugin folder.
+Install with [Sketch-Toolbox](https://sketchtoolbox.com) or copy and paste RandomColors.sketchplugin file to your sketch app’s plugin folder.
 
 ## Basic Usage
 
